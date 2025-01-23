@@ -28,4 +28,4 @@ jobs:
         run: make all
 
 env:
-  GITHUB_REF: H7-ADM/beanstalkd:refs/heads/master
+  GITHUB_REF: jadson-pimentel/beanstalkd:refs/heads/master
