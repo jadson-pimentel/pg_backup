@@ -10,7 +10,7 @@ define docker_build_and_push
 	docker buildx build \
 		--push \
 		--platform linux/arm64,linux/amd64 \
-		-t "schickling/$1:$(if $2,$2,$(TAG))" \
+		-t "jadson-pimentel/$1:$(if $2,$2,$(TAG))" \
 		./$1
 endef
 
@@ -37,7 +37,7 @@ jekyll: ## Build jekyll image
 	docker buildx build \
 		--push \
 		--platform linux/amd64 \
-		-t "schickling/$1" \
+		-t "jadson-pimentel/$1" \
 		./$1
 
 .PHONY: latex
