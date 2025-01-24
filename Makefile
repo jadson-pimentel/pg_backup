@@ -48,9 +48,9 @@ all: beanstalkd beanstalkd-console hugin jekyll latex mailcatcher mysql-backup-s
 # mailcatcher: ## Build mailcatcher image
 # 	$(call docker_build_and_push,mailcatcher)
 
-.PHONY: mysql-backup-s3
-mysql-backup-s3: ## Build mysql-backup-s3 image
-	$(call docker_build_and_push,mysql-backup-s3)
+# .PHONY: mysql-backup-s3
+# mysql-backup-s3: ## Build mysql-backup-s3 image
+#	$(call docker_build_and_push,mysql-backup-s3)
 
 # .PHONY: nginx-envtpl
 # nginx-envtpl: ## Build nginx-envtpl image
