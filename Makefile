@@ -37,7 +37,7 @@ jekyll: ## Build jekyll image
 	docker buildx build \
 		--push \
 		--platform linux/amd64 \
-		-t "jspimentel/$1" \
+		-t "jspimentel/$1:latest" \
 		./$1
 
 .PHONY: latex
