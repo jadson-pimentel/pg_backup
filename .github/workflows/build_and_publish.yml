@@ -28,5 +28,5 @@ jobs:
         run: make all
         
 env:
-  GITHUB_REF: jadson-pimentel/beanstalkd:master
+  GITHUB_REF: jadson-pimentel/pg_backup:master
   
