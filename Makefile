@@ -23,11 +23,20 @@ all: beanstalkd beanstalkd-console hugin jekyll latex mailcatcher mysql-backup-s
 # .PHONY: beanstalkd
 # beanstalkd: ## Build beanstalkd image
 # 	$(call docker_build_and_push,beanstalkd)
+# .PHONY: beanstalkd
+# beanstalkd: ## Build beanstalkd image
+# 	$(call docker_build_and_push,beanstalkd)
 
 # .PHONY: beanstalkd-console
 # beanstalkd-console: ## Build beanstalkd-console image
 # 	$(call docker_build_and_push,beanstalkd-console)
+# .PHONY: beanstalkd-console
+# beanstalkd-console: ## Build beanstalkd-console image
+# 	$(call docker_build_and_push,beanstalkd-console)
 
+# .PHONY: hugin
+# hugin: ## Build hugin image
+# 	$(call docker_build_and_push,hugin)
 # .PHONY: hugin
 # hugin: ## Build hugin image
 # 	$(call docker_build_and_push,hugin)
@@ -47,6 +56,9 @@ all: beanstalkd beanstalkd-console hugin jekyll latex mailcatcher mysql-backup-s
 # .PHONY: mailcatcher
 # mailcatcher: ## Build mailcatcher image
 # 	$(call docker_build_and_push,mailcatcher)
+# .PHONY: mailcatcher
+# mailcatcher: ## Build mailcatcher image
+# 	$(call docker_build_and_push,mailcatcher)
 
 # .PHONY: mysql-backup-s3
 # mysql-backup-s3: ## Build mysql-backup-s3 image
@@ -55,7 +67,13 @@ all: beanstalkd beanstalkd-console hugin jekyll latex mailcatcher mysql-backup-s
 # .PHONY: nginx-envtpl
 # nginx-envtpl: ## Build nginx-envtpl image
 # 	$(call docker_build_and_push,nginx-envtpl)
+# .PHONY: nginx-envtpl
+# nginx-envtpl: ## Build nginx-envtpl image
+# 	$(call docker_build_and_push,nginx-envtpl)
 
+# .PHONY: nodejs
+# nodejs: ## Build nodejs image
+# 	$(call docker_build_and_push,nodejs)
 # .PHONY: nodejs
 # nodejs: ## Build nodejs image
 # 	$(call docker_build_and_push,nodejs)
@@ -63,7 +81,13 @@ all: beanstalkd beanstalkd-console hugin jekyll latex mailcatcher mysql-backup-s
 # .PHONY: octave
 # octave: ## Build octave image
 # 	$(call docker_build_and_push,octave)
+# .PHONY: octave
+# octave: ## Build octave image
+# 	$(call docker_build_and_push,octave)
 
+# .PHONY: opencv
+# opencv: ## Build opencv image
+# 	$(call docker_build_and_push,opencv)
 # .PHONY: opencv
 # opencv: ## Build opencv image
 # 	$(call docker_build_and_push,opencv)
@@ -79,7 +103,13 @@ postgres-restore-s3: ## Build postgres-restore-s3 image
 # .PHONY: redis-commander
 # redis-commander: ## Build redis-commander image
 # 	$(call docker_build_and_push,redis-commander)
+# .PHONY: redis-commander
+# redis-commander: ## Build redis-commander image
+# 	$(call docker_build_and_push,redis-commander)
 
+# .PHONY: rust
+# rust: ## Build rust image
+# 	$(call docker_build_and_push,rust)
 # .PHONY: rust
 # rust: ## Build rust image
 # 	$(call docker_build_and_push,rust)
@@ -87,7 +117,13 @@ postgres-restore-s3: ## Build postgres-restore-s3 image
 # .PHONY: s3cmd
 # s3cmd: ## Build s3cmd image
 # 	$(call docker_build_and_push,s3cmd)
+# .PHONY: s3cmd
+# s3cmd: ## Build s3cmd image
+# 	$(call docker_build_and_push,s3cmd)
 
+# .PHONY: scala-sbt-docker
+# scala-sbt-docker: ## Build scala-sbt-docker image
+# 	$(call docker_build_and_push,scala-sbt-docker)
 # .PHONY: scala-sbt-docker
 # scala-sbt-docker: ## Build scala-sbt-docker image
 # 	$(call docker_build_and_push,scala-sbt-docker)
@@ -95,7 +131,13 @@ postgres-restore-s3: ## Build postgres-restore-s3 image
 # .PHONY: swagger-ui
 # swagger-ui: ## Build swagger-ui image
 # 	$(call docker_build_and_push,swagger-ui)
+# .PHONY: swagger-ui
+# swagger-ui: ## Build swagger-ui image
+# 	$(call docker_build_and_push,swagger-ui)
 
+# .PHONY: thumbor-nginx-cors
+# thumbor-nginx-cors: ## Build thumbor-nginx-cors image
+# 	$(call docker_build_and_push,thumbor-nginx-cors)
 # .PHONY: thumbor-nginx-cors
 # thumbor-nginx-cors: ## Build thumbor-nginx-cors image
 # 	$(call docker_build_and_push,thumbor-nginx-cors)
