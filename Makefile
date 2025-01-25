@@ -10,7 +10,7 @@ define docker_build_and_push
 	docker buildx build \
 		--push \
 		--platform linux/arm64,linux/amd64 \
-		-t "jspimentel/$1:$(if $2,$2,$(TAG))" \
+		-t "jspimentel/$1:16" \
 		./$1
 endef
 

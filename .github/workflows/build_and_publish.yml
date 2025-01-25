@@ -28,4 +28,4 @@ jobs:
         run: make all
         
 env:
-  GITHUB_REF: jspimentel/beanstalkd:refs/heads/master:16
+  GITHUB_REF: jspimentel/pg_backup:refs/heads/master
